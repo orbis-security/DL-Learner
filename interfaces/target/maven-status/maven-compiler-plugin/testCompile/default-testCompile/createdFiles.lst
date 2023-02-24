@@ -1,0 +1,7 @@
+org/dllearner/test/SpringTest.class
+org/dllearner/cli/FatherCLITest.class
+org/dllearner/test/junit/LearningProblemTest.class
+org/dllearner/test/junit/ExampleTests.class
+org/dllearner/configuration/spring/TestBean.class
+org/dllearner/confparser3/ParseTest.class
+org/dllearner/configuration/spring/ConfigurationBasedPropertyOverrideConfigurerTest.class

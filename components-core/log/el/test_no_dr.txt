@@ -1,0 +1,41 @@
+TRACE - Domain(has,⊤)
+TRACE - Range(has,⊤)
+TRACE - Domain(hasChild,⊤)
+TRACE - Range(hasChild,⊤)
+TRACE - Domain(hasPet,⊤)
+TRACE - Range(hasPet,⊤)
+TRACE - refining human ⊓ (∃ hasPet.bird)
+TRACE - applying \rho on human AND EXISTS hasPet.(bird)
+TRACE - picked node v: [human]
+-- hasPet -->
+    [bird]
+
+TRACE - getIndividuals for animal
+TRACE - reasoner query getIndividuals: animal []
+TRACE - getIndividuals for ⊤
+TRACE - reasoner query getIndividuals: ⊤ []
+TRACE - getIndividuals for human
+TRACE - reasoner query getIndividuals: human []
+TRACE - getIndividuals for ⊤
+TRACE - reasoner query getIndividuals: ⊤ []
+TRACE - getIndividuals for ⊤
+TRACE - reasoner query getIndividuals: ⊤ []
+TRACE - getIndividuals for ⊤
+TRACE - reasoner query getIndividuals: ⊤ []
+TRACE - picked node v: [bird]
+
+DEBUG - Injecting object uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl@61602832
+DEBUG - Loading file META-INF/services/org.semanticweb.owlapi.model.OWLOntologyIRIMapper
+DEBUG - No files found for META-INF/services/org.semanticweb.owlapi.model.OWLOntologyIRIMapper
+DEBUG - Injecting values [[]] on method public void uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.setIRIMappers(java.util.Set).
+DEBUG - Injecting values [[org.semanticweb.owlapi.rio.RioTrixParserFactory@6c7f1edf, org.semanticweb.owlapi.manchestersyntax.parser.ManchesterOWLSyntaxOntologyParserFactory@5816a437, org.semanticweb.owlapi.rio.RioNTriplesParserFactory@7571b9f3, org.semanticweb.owlapi.oboformat.OBOFormatOWLAPIParserFactory@3474c877, org.semanticweb.owlapi.rio.RioJsonParserFactory@853ec97, org.semanticweb.owlapi.rio.RioN3ParserFactory@68927417, org.semanticweb.owlapi.rio.RioNQuadsParserFactory@4279fabc, org.semanticweb.owlapi.rio.RioRDFXMLParserFactory@1998361f, org.semanticweb.owlapi.rdf.rdfxml.parser.RDFXMLParserFactory@159168fb, org.semanticweb.owlapi.functional.parser.OWLFunctionalSyntaxOWLParserFactory@26b5d73e, org.semanticweb.owlapi.rio.RioTurtleParserFactory@6642ea, org.semanticweb.owlapi.owlxml.parser.OWLXMLParserFactory@4b6fe8c3, org.semanticweb.owlapi.rdf.turtle.parser.TurtleOntologyParserFactory@14f6a658, org.semanticweb.owlapi.rio.RioRDFaParserFactory@62d1d49e, org.semanticweb.owlapi.rio.RioTrigParserFactory@1439938a, org.semanticweb.owlapi.krss2.parser.KRSS2OWLParserFactory@ebc97c, org.semanticweb.owlapi.rio.RioJsonLDParserFactory@7198c4e4, org.semanticweb.owlapi.rio.RioBinaryRdfParserFactory@1a960aeb]] on method public void uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.setOntologyParsers(java.util.Set).
+DEBUG - Injecting values [[uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl@3c70e5e0]] on method public void uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.setOntologyFactories(java.util.Set).
+DEBUG - Injecting values [[org.semanticweb.owlapi.owlxml.renderer.OWLXMLStorerFactory@312db2af, org.semanticweb.owlapi.rio.RioTurtleStorerFactory@ab8083c, org.semanticweb.owlapi.krss2.renderer.KRSS2OWLSyntaxStorerFactory@9ce6a2b, org.semanticweb.owlapi.rio.RioN3StorerFactory@3f64b34d, org.semanticweb.owlapi.oboformat.OBOFormatStorerFactory@78b486fd, org.semanticweb.owlapi.functional.renderer.FunctionalSyntaxStorerFactory@7091fd5d, org.semanticweb.owlapi.rio.RioNTriplesStorerFactory@62cb9a66, org.semanticweb.owlapi.rio.RioRDFXMLStorerFactory@6601912e, org.semanticweb.owlapi.rio.RioBinaryRdfStorerFactory@86d3b5d, org.semanticweb.owlapi.dlsyntax.renderer.DLSyntaxStorerFactory@7d50d981, org.semanticweb.owlapi.latex.renderer.LatexStorerFactory@2aae7d9a, org.semanticweb.owlapi.rio.RioJsonStorerFactory@48009d8, org.semanticweb.owlapi.manchestersyntax.renderer.ManchesterSyntaxStorerFactory@3a22e29b, org.semanticweb.owlapi.dlsyntax.renderer.DLSyntaxHTMLStorerFactory@7b5646e, org.semanticweb.owlapi.rio.RioNQuadsStorerFactory@5eb2c02f, org.semanticweb.owlapi.rio.RioTrigStorerFactory@7c65b878, org.semanticweb.owlapi.rio.RioTrixStorerFactory@349eac63, org.semanticweb.owlapi.rdf.turtle.renderer.TurtleStorerFactory@552a1977, org.semanticweb.owlapi.rio.RioJsonLDStorerFactory@16255c1b, org.semanticweb.owlapi.rdf.rdfxml.renderer.RDFXMLStorerFactory@605a70a4]] on method public void uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.setOntologyStorers(java.util.Set).
+DEBUG - Injecting object uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl@195a909f
+DEBUG - Loading file META-INF/services/org.semanticweb.owlapi.model.OWLOntologyIRIMapper
+DEBUG - No files found for META-INF/services/org.semanticweb.owlapi.model.OWLOntologyIRIMapper
+DEBUG - Injecting values [[]] on method public void uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.setIRIMappers(java.util.Set).
+DEBUG - Injecting values [[org.semanticweb.owlapi.rio.RioJsonLDParserFactory@45e3af62, org.semanticweb.owlapi.rio.RioRDFaParserFactory@7c4edd8b, org.semanticweb.owlapi.rio.RioTurtleParserFactory@341b0073, org.semanticweb.owlapi.krss2.parser.KRSS2OWLParserFactory@41270ecc, org.semanticweb.owlapi.rio.RioNQuadsParserFactory@6f1dfa71, org.semanticweb.owlapi.oboformat.OBOFormatOWLAPIParserFactory@38b7e79b, org.semanticweb.owlapi.rdf.turtle.parser.TurtleOntologyParserFactory@6636c83b, org.semanticweb.owlapi.rio.RioJsonParserFactory@52c3336c, org.semanticweb.owlapi.rio.RioTrigParserFactory@67354bba, org.semanticweb.owlapi.owlxml.parser.OWLXMLParserFactory@11b8b037, org.semanticweb.owlapi.rio.RioNTriplesParserFactory@37ddc04f, org.semanticweb.owlapi.rdf.rdfxml.parser.RDFXMLParserFactory@68909da2, org.semanticweb.owlapi.rio.RioN3ParserFactory@1f509fc3, org.semanticweb.owlapi.functional.parser.OWLFunctionalSyntaxOWLParserFactory@ac25416, org.semanticweb.owlapi.rio.RioBinaryRdfParserFactory@5ea5d313, org.semanticweb.owlapi.rio.RioTrixParserFactory@3eb320ab, org.semanticweb.owlapi.rio.RioRDFXMLParserFactory@67fbfb46, org.semanticweb.owlapi.manchestersyntax.parser.ManchesterOWLSyntaxOntologyParserFactory@c82ec7d]] on method public void uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.setOntologyParsers(java.util.Set).
+DEBUG - Injecting values [[uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl@20cd767f]] on method public void uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.setOntologyFactories(java.util.Set).
+DEBUG - Injecting values [[org.semanticweb.owlapi.rio.RioTrixStorerFactory@53927133, org.semanticweb.owlapi.manchestersyntax.renderer.ManchesterSyntaxStorerFactory@2024d7a5, org.semanticweb.owlapi.rio.RioTrigStorerFactory@53c645a4, org.semanticweb.owlapi.functional.renderer.FunctionalSyntaxStorerFactory@4676b254, org.semanticweb.owlapi.krss2.renderer.KRSS2OWLSyntaxStorerFactory@79c9556d, org.semanticweb.owlapi.rio.RioTurtleStorerFactory@19fff976, org.semanticweb.owlapi.rdf.rdfxml.renderer.RDFXMLStorerFactory@67a7d26e, org.semanticweb.owlapi.dlsyntax.renderer.DLSyntaxStorerFactory@53d3b0b9, org.semanticweb.owlapi.rio.RioJsonStorerFactory@1f3d1a50, org.semanticweb.owlapi.latex.renderer.LatexStorerFactory@669d9970, org.semanticweb.owlapi.rio.RioN3StorerFactory@5488f946, org.semanticweb.owlapi.rio.RioRDFXMLStorerFactory@4097d639, org.semanticweb.owlapi.rio.RioNQuadsStorerFactory@22445215, org.semanticweb.owlapi.oboformat.OBOFormatStorerFactory@15f31981, org.semanticweb.owlapi.rio.RioJsonLDStorerFactory@18b1bde2, org.semanticweb.owlapi.owlxml.renderer.OWLXMLStorerFactory@6ad405b, org.semanticweb.owlapi.rio.RioBinaryRdfStorerFactory@74a05359, org.semanticweb.owlapi.dlsyntax.renderer.DLSyntaxHTMLStorerFactory@6082f3f9, org.semanticweb.owlapi.rio.RioNTriplesStorerFactory@370fb512, org.semanticweb.owlapi.rdf.turtle.renderer.TurtleStorerFactory@150a6d97]] on method public void uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.setOntologyStorers(java.util.Set).
+INFO - Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)

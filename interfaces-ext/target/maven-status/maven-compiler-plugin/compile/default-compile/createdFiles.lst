@@ -1,0 +1,5 @@
+org/dllearner/cli/unife/OntologyValidation.class
+org/dllearner/cli/CLIExt.class
+org/dllearner/cli/unife/CLILEAP.class
+org/dllearner/cli/unife/LEAPCrossValidation.class
+org/dllearner/cli/unife/CLIDistributedLEAP.class

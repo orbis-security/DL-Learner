@@ -1,0 +1,42 @@
+TRACE - Domain(has,⊤)
+TRACE - Range(has,⊤)
+TRACE - Domain(hasChild,human)
+TRACE - Range(hasChild,human)
+TRACE - Domain(hasPet,human)
+TRACE - Range(hasPet,animal)
+TRACE - refining human ⊓ (∃ has.animal) ⊓ (∃ hasChild.human)
+TRACE - applying \rho on human AND EXISTS has.(animal) AND EXISTS hasChild.(human)
+TRACE - picked node v: [human]
+-- has -->
+    [animal]
+-- hasChild -->
+    [human]
+
+TRACE - getIndividuals for animal
+TRACE - reasoner query getIndividuals: animal []
+TRACE - getIndividuals for ⊤
+TRACE - reasoner query getIndividuals: ⊤ []
+TRACE - getIndividuals for human
+TRACE - reasoner query getIndividuals: human []
+TRACE - getIndividuals for ⊤
+TRACE - reasoner query getIndividuals: ⊤ []
+TRACE - getIndividuals for animal
+TRACE - reasoner query getIndividuals: animal []
+TRACE - getIndividuals for human
+TRACE - reasoner query getIndividuals: human []
+TRACE - getIndividuals for animal
+TRACE - reasoner query getIndividuals: animal []
+TRACE - getIndividuals for animal
+TRACE - reasoner query getIndividuals: animal []
+TRACE - getIndividuals for ⊤
+TRACE - reasoner query getIndividuals: ⊤ []
+TRACE - getIndividuals for ⊤
+TRACE - reasoner query getIndividuals: ⊤ []
+TRACE - picked node v: [animal]
+
+TRACE - picked node v: [human]
+
+TRACE - getIndividuals for human
+TRACE - reasoner query getIndividuals: human []
+TRACE - getIndividuals for human
+TRACE - reasoner query getIndividuals: human []
